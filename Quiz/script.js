@@ -20,10 +20,12 @@ scrollTo(0,0);
 result.querySelector('span').textContent = `${score}%`;
 result.classList.remove('d-none');
 
-  console.log(score);
-
-
 });
+
+let i = 0; 
+const timer = setInterval(() => {
+  
+})
 
 
 
