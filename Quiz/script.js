@@ -16,8 +16,9 @@ form.addEventListener('submit', e => {
     }
   });
 
-
-result.querySelector('span').textContent = `${score}%`
+scrollTo(0,0);
+result.querySelector('span').textContent = `${score}%`;
+result.classList.remove('d-none');
 
   console.log(score);
 
