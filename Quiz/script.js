@@ -24,8 +24,11 @@ result.classList.remove('d-none');
 
 let i = 0; 
 const timer = setInterval(() => {
-  
-})
+  i++; 
+  if(i === 5) {
+    clearInterval(timer);
+  }
+}, 1000);
 
 
 
